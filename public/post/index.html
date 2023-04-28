@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yeni entry - abc sözlük</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+	<link rel="icon" href="/asset/logo-small.png" />
+	<script src="/arama.js" defer></script>
+</head>
+<body>
+	<header><div class="topleft"><a href="https://abcsozluk.up.railway.app/"><picture><source srcset="/asset/logo-small.png" media="(max-width: 620px)"><img src="/asset/logo-no-background.png"></picture></a></div><div><input id="aramafield" type="text" placeholder="başlık arayın..."></div></header><hr>
+	<div id="app">
+		<form action="/create" method="POST">
+			<input type="text" name="title" placeholder="Başlık" required>
+			<textarea name="entry" placeholder="Entry" required></textarea>
+			<button>Gönder</button>
+		</form>
+	</div>
+	<footer><p>abcsözlük ©2023</p></footer>
+<script>
+/*	const rgx = /[^ .a-zA-Z0-9-]+/g
+
+	const username = 'TestUser';
+
+	function subm(a,b,c){
+		fetch('http://localhost:3000/create', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				e: {
+					title: a,
+					entry: b,
+					date: new Date().getTime()
+				}
+			})
+		})
+	}*/
+</script>
+</body>
+</html>
+
